@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "addItemToMyList",
+    "RelativePath": "Necuiltonolli/AddItemToMyList/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "addNewProduct",
+    "RelativePath": "Necuiltonolli/AddNewProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "NecuiltonolliWebAPI.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "updateItemStatus",
+    "RelativePath": "Necuiltonolli/ChangeMyListItemStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "NecuiltonolliWebAPI.Model.ItemMyList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "deleteItem",
+    "RelativePath": "Necuiltonolli/DeleteItemMyList/{itemId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "deleteProduct",
+    "RelativePath": "Necuiltonolli/DeleteProduct/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "getAllMyList",
+    "RelativePath": "Necuiltonolli/GetAllMyList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "getAllProducts",
+    "RelativePath": "Necuiltonolli/GetAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NecuiltonolliWebAPI.Controllers.NecuiltonolliController",
+    "Method": "updateProduct",
+    "RelativePath": "Necuiltonolli/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "NecuiltonolliWebAPI.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NecuiltonolliWebAPI.Model.ServerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@NecuiltonolliWebAPI_HostAddress = http://localhost:5093
+
+GET {{NecuiltonolliWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
